@@ -2,6 +2,10 @@ package iscteiul.ista.blackbattleship;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class UserStory7 {
 
@@ -22,5 +26,8 @@ public class UserStory7 {
 
     public void clickGoogleLogin() {
         driver.findElement(By.xpath("//span[contains(.,'Continue with Google')]")).click();
+    }
+    public void openMyTournaments() {
+        driver.get("https://papergames.io/en/t/my-tournaments");
     }
 }

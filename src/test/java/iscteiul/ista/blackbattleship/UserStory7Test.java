@@ -11,7 +11,7 @@ public class UserStory7Test {
     @BeforeEach
     public void setup() {
         driver = new ChromeDriver();
-        driver.get("https://papergames.io/en/battleship");
+        driver.manage().window().maximize();
     }
 
     @AfterEach
@@ -27,5 +27,6 @@ public class UserStory7Test {
         page.openHomePage();
         page.clickLogin();
         page.clickGoogleLogin();
+        page.openMyTournaments();
     }
 }
