@@ -1,0 +1,442 @@
+{
+  "id": "623c85e5-6906-461f-9102-2ee79818f05d",
+  "version": "2.0",
+  "name": "TestSuite__123029",
+  "url": "https://papergames.io",
+  "tests": [{
+    "id": "c9187d70-3b8f-40f2-85fd-c222d8cf7a9a",
+    "name": "UserStoryTest7",
+    "commands": [{
+      "id": "8faa0549-7d62-485c-a31f-89401cc14da9",
+      "comment": "",
+      "command": "open",
+      "target": "/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b61b183-ad61-4407-9d2f-2e29c6924523",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "854x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84f9b96c-e7b2-4e5b-852d-e927ce87cbce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/shop')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4d7f129-23a8-46d4-913b-d9a93fff5a48",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/shop')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6904189b-a962-4827-9e3c-4a9b54f5b85e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-item:nth-child(1) > .mat-mdc-tooltip-trigger", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ce1b834-7e98-457f-acc6-8daf6bf97b0e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-item:nth-child(1) > .mat-mdc-tooltip-trigger", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cd7e915-0a08-4efe-a08a-16987699876b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-dark",
+      "targets": [
+        ["css=.btn-outline-dark", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24e57a35-10da-45df-87d7-970ea231822c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-left:nth-child(1) .front",
+      "targets": [
+        ["css=.text-left:nth-child(1) .front", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/app-social-login-buttons/div[2]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/app-juicy-button/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue with Google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9333dcc6-62cd-47e9-9d08-2db8d1f7df2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aZvCDf:nth-child(1) .yAlK0b",
+      "targets": [
+        ["css=.aZvCDf:nth-child(1) .yAlK0b", "css:finder"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz/main/div[2]/div/div/div/span/section/div/div/div/div/ul/li/div/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76bddbae-a63d-43de-beb9-23fef9bca543",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Goodies",
+      "targets": [
+        ["linkText=Goodies", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://merch.papergames.io')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Goodies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a01d4b2-83fd-4230-8041-fe5f43def078",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Goodies",
+      "targets": [
+        ["linkText=Goodies", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://merch.papergames.io')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Goodies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17ad53ad-4ad5-49b9-8064-5091a2e4f3f6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Goodies",
+      "targets": [
+        ["linkText=Goodies", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://merch.papergames.io')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Goodies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "849d59df-ec75-47b1-aa69-bfb6d58df4aa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Goodies",
+      "targets": [
+        ["linkText=Goodies", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://merch.papergames.io')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Goodies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56482f90-cbdb-4c69-8f8d-274f502a1b05",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav:nth-child(3) > .nav-item:nth-child(2) .hide-if-collapsed",
+      "targets": [
+        ["css=.nav:nth-child(3) > .nav-item:nth-child(2) .hide-if-collapsed", "css:finder"],
+        ["xpath=//ul[3]/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create tournament')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bbd237c-5863-4901-a79c-74ab1058fa18",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nav:nth-child(3) > .nav-item:nth-child(2) .hide-if-collapsed",
+      "targets": [
+        ["css=.nav:nth-child(3) > .nav-item:nth-child(2) .hide-if-collapsed", "css:finder"],
+        ["xpath=//ul[3]/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create tournament')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed73ff36-2ac6-49e2-8459-83503cc32709",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My tournaments",
+      "targets": [
+        ["linkText=My tournaments", "linkText"],
+        ["css=.nav:nth-child(3) > .nav-item:nth-child(3) > .mat-mdc-tooltip-trigger", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/t/my-tournaments')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My tournaments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c1096bd-5f30-4cf0-9779-1e5111b0a0fa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=My tournaments",
+      "targets": [
+        ["linkText=My tournaments", "linkText"],
+        ["css=.nav:nth-child(3) > .nav-item:nth-child(3) > .mat-mdc-tooltip-trigger", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/t/my-tournaments')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My tournaments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7945a48-e651-4508-91a1-070f77ee6456",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav:nth-child(3) > .nav-item:nth-child(3) .hide-if-collapsed",
+      "targets": [
+        ["css=.nav:nth-child(3) > .nav-item:nth-child(3) .hide-if-collapsed", "css:finder"],
+        ["xpath=//ul[3]/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My tournaments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efeb9d0c-a67b-48d7-a4e0-340505b618fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .hide-if-collapsed",
+      "targets": [
+        ["css=.cdk-focused > .hide-if-collapsed", "css:finder"],
+        ["xpath=//ul[3]/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My tournaments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6b050f1-f023-4b6d-a9ac-141f069ecb8d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .hide-if-collapsed",
+      "targets": [
+        ["css=.cdk-focused > .hide-if-collapsed", "css:finder"],
+        ["xpath=//ul[3]/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My tournaments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a151017c-7c69-4f04-9a41-1b0effbaf20e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Learn more",
+      "targets": [
+        ["linkText=Learn more", "linkText"],
+        ["css=.lead > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn more')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://papergames.io/blog/tournament-organizer/')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn more')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60de05a1-8495-4223-9353-ee094daee165",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Create tournament')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/en/t/create-tournament')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb2547b0-15bb-42bc-95fc-02f8a1450477",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Create tournament')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/en/t/create-tournament')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d5b8f42-bac6-49c2-9ea4-61572d0a5a5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .mat-mdc-form-field .mat-mdc-form-field-infix",
+      "targets": [
+        ["css=div:nth-child(1) > .mat-mdc-form-field .mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79c8fcc3-2632-4496-885d-c7b249e71c6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-serverApp4 .c-gray-700",
+      "targets": [
+        ["css=#mat-option-serverApp4 .c-gray-700", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-serverApp4']/span/app-game-select-option/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//app-game-select-option/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18464a07-bf12-4b6c-853d-627cead8a4e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-invalid > .mat-mdc-text-field-wrapper .mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.ng-invalid > .mat-mdc-text-field-wrapper .mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffd96ca9-27ce-4662-8dad-23565cab6a61",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-serverApp0",
+      "targets": [
+        ["id=mat-input-serverApp0", "id"],
+        ["css=#mat-input-serverApp0", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "battleship"
+    }, {
+      "id": "32ba6d47-b51a-4466-a07c-11f52e376352",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create and share')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbda93fa-5353-4208-b1e0-3bbab31bd731",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create and share')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca9d7522-5f63-4697-9d0b-38d2fead703f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create and share ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2fbf98d-d8c8-47f0-9f60-dd78338e6536",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dialog-close .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.dialog-close .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-url-sharer-dialog/app-dialog-layout/div/header/div/button/span[3]", "xpath:idRelative"],
+        ["xpath=//div/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1dc5fd5-bb6c-48a4-82fe-2ceb665080e6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.dialog-close .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.dialog-close .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-url-sharer-dialog/app-dialog-layout/div/header/div/button/span[3]", "xpath:idRelative"],
+        ["xpath=//div/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc57690a-051b-4d7b-b68e-80eeb7366d41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-copy",
+      "targets": [
+        ["css=.fa-copy", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6806e978-f9d7-4d13-9c22-9d1f77e66cfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-3 > .btn",
+      "targets": [
+        ["css=.p-3 > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-url-sharer-dialog/app-dialog-layout/div/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go to tournament ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fbe537b-246d-4e01-b726-5365bb92e482",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c3826d2-854a-418e-bc0f-0253a917acf6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-tooltip-trigger:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-tooltip-trigger:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[3]/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cf44a24-9537-45df-87b6-7de599b6c6c2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-tooltip-trigger:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-tooltip-trigger:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[3]/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "12237483-aa7c-4901-b7ce-04c604c31902",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c9187d70-3b8f-40f2-85fd-c222d8cf7a9a"]
+  }],
+  "urls": ["https://papergames.io/"],
+  "plugins": []
+}
