@@ -18,4 +18,9 @@ public class UserStory7 {
     public void clickLogin() {
         driver.findElement(By.xpath("//button[contains(.,'Login')]")).click();
     }
+
+
+    public void clickGoogleLogin() {
+        driver.findElement(By.xpath("//span[contains(.,'Continue with Google')]")).click();
+    }
 }

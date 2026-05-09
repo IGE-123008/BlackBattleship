@@ -21,9 +21,11 @@ public class UserStory7Test {
 
     @Test
     public void createTournamentTest() {
+
         UserStory7 page = new UserStory7(driver);
 
         page.openHomePage();
         page.clickLogin();
+        page.clickGoogleLogin();
     }
 }
