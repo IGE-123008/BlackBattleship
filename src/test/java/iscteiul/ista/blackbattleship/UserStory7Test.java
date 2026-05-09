@@ -1,12 +1,16 @@
 package iscteiul.ista.blackbattleship;
 
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 public class UserStory7Test {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @BeforeEach
     public void setup() {
@@ -16,17 +20,27 @@ public class UserStory7Test {
 
     @AfterEach
     public void tearDown() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     @Test
     public void createTournamentTest() {
-
         UserStory7 page = new UserStory7(driver);
 
         page.openHomePage();
-        page.clickLogin();
-        page.clickGoogleLogin();
         page.openMyTournaments();
+        page.openCreateTournamentPage();
+
+        page.chooseBattleshipGame();
+        page.writeTournamentName("Battleship Test 123029");
+
+        page.clickCreateAndShare();
+
+        String shareLink = page.getShareLink();
+
+        assertNotNull(shareLink);
+        assertFalse(shareLink.isBlank());
     }
 }
