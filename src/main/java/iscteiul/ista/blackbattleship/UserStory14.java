@@ -3,11 +3,11 @@ package iscteiul.ista.blackbattleship;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class UserStory8 {
+public class UserStory14 {
 
     private final WebDriver driver;
 
-    public UserStory8(WebDriver driver) {
+    public UserStory14(WebDriver driver) {
         this.driver = driver;
     }
 

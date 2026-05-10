@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class UserStory8Test {
+public class UserStory14Test {
 
     private WebDriver driver;
 
@@ -25,7 +25,7 @@ public class UserStory8Test {
 
     @Test
     public void openHistoryTest() {
-        UserStory8 page = new UserStory8(driver);
+        UserStory14 page = new UserStory14(driver);
 
         page.openHistoryPage();
 
