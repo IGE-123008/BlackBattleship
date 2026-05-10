@@ -31,4 +31,17 @@ public class ShopPage {
     public void selecionarPrimeiroPacote() {
         wait.until(ExpectedConditions.elementToBeClickable(firstCoinPack)).click();
     }
+
+    // Elementos US12 (Avatares)
+    private By monstersCategory = By.linkText("Monsters");
+    private By buyAvatarBtn = By.cssSelector(".h-100:nth-child(1) > .h-100 > app-shop-purchase-product-button > .btn");
+    private By confirmBtn = By.cssSelector(".btn-secondary:nth-child(2)");
+
+    public void comprarAvatarMonstro() {
+        wait.until(ExpectedConditions.elementToBeClickable(monstersCategory)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(buyAvatarBtn)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(confirmBtn)).click();
+    }
+
+
 }

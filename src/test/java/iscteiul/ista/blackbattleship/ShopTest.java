@@ -28,4 +28,12 @@ public class ShopTest {
     public void tearDown() {
         driver.quit();
     }
+
+    @Test
+    @DisplayName("US12: Comprar e equipar Avatares")
+    public void testUS12_BuyAvatar() throws InterruptedException {
+        shopPage.abrirLoja();
+        shopPage.comprarAvatarMonstro();
+        Thread.sleep(2000);
+    }
 }
