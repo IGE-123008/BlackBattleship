@@ -61,15 +61,7 @@ public class UserStory7 {
         return linkInput.getAttribute("value");
     }
 
-    public void copyShareLink() {
-        wait.until(ExpectedConditions.elementToBeClickable(
-                By.cssSelector(".fa-copy")
-        )).click();
-    }
 
-    public void goToTournament() {
-        wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//button[contains(.,'Go to tournament')]")
-        )).click();
-    }
+
+
 }
