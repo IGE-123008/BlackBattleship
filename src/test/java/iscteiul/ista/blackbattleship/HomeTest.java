@@ -29,4 +29,13 @@ public class HomeTest {
     public void tearDown() {
         driver.quit();
     }
+
+    @Test
+    @DisplayName("US15: Consultar planos de subscrição")
+    public void testUS15_Subscriptions() throws InterruptedException {
+        HomePage home = new HomePage(driver);
+        home.verPrecosAPI();
+        Thread.sleep(2000);
+        Assertions.assertTrue(driver.getPageSource().contains("Pricing"));
+    }
 }

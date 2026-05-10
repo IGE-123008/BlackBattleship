@@ -14,4 +14,10 @@ public class HomePage {
     public void clicarEmGoodies() {
         driver.findElement(goodiesLink).click();
     }
+
+    private By apiPricingLink = By.linkText("API"); // Gravado no teu .side
+
+    public void verPrecosAPI() {
+        driver.findElement(apiPricingLink).click();
+    }
 }
