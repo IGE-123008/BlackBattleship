@@ -1,0 +1,506 @@
+{
+  "id": "09580dd3-c0bf-4be3-9e90-6fc1def3ff66",
+  "version": "2.0",
+  "name": "TestSuite_122982",
+  "url": "https://papergames.io",
+  "tests": [{
+    "id": "5755b0f4-8db3-498c-a4f1-522d5a88d436",
+    "name": "US04",
+    "commands": [{
+      "id": "fe83459a-083e-4717-87c1-01254ec60e2a",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc1890da-451f-4124-ad4a-9cacedf16948",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "675x743",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f581e2ea-b6e6-4e6e-a0be-042c4c24f255",
+      "comment": "",
+      "command": "click",
+      "target": "css=.game-item:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.game-item:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='Battleship']", "xpath:img"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afc7a919-825b-4baa-8832-f254833df5a3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.game-item:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.game-item:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='Battleship']", "xpath:img"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3736620-b25a-431a-9167-2857628afbeb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.w-100:nth-child(1) .front",
+      "targets": [
+        ["css=.w-100:nth-child(1) .front", "css:finder"],
+        ["xpath=//app-juicy-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b53cf380-9be6-4c3f-a598-6e65382c73b7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.w-100:nth-child(1) > .btn-lg > .front",
+      "targets": [
+        ["css=.w-100:nth-child(1) > .btn-lg > .front", "css:finder"],
+        ["xpath=//app-juicy-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73131662-ce02-4d05-99dd-2f0ad45f5c8d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=app-header-nav:nth-child(1) app-settings-menu .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=app-header-nav:nth-child(1) app-settings-menu .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[2]/app-header-nav/mat-toolbar/app-settings-menu/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c4429a-0e79-4a89-9c71-e61fc4228b70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[2]/app-header-nav/mat-toolbar/app-settings-menu/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e74cd4b-9337-478f-b093-e69b52882307",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=app-header-nav:nth-child(1) app-settings-menu .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=app-header-nav:nth-child(1) app-settings-menu .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[2]/app-header-nav/mat-toolbar/app-settings-menu/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb4bdcd-989b-4750-bd67-e1ad3b31e15c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-caret-right > path",
+      "targets": [
+        ["css=.fa-caret-right > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0e7e436-d37d-490d-b473-da39627eda40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fa-caret-right > path",
+      "targets": [
+        ["css=.fa-caret-right > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1edcecee-3867-4054-afad-9d0639920f11",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.fa-caret-right > path",
+      "targets": [
+        ["css=.fa-caret-right > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "352d1202-689b-4fb8-af62-90fc5e80b9a0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-menu-item:nth-child(2)",
+      "targets": [
+        ["css=.mat-mdc-menu-item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-serverApp1']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e3d89e4-129c-41bc-97a8-5bae15981bbb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-menu-item:nth-child(2)",
+      "targets": [
+        ["css=.mat-mdc-menu-item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-serverApp1']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0327b74f-8315-4e15-b8b7-d3e2cdf03c02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-mdc-menu-item-text",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-menu-item-text", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-serverApp1']/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Español')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de02c926-e700-4a71-bcf0-316498a6260a",
+      "comment": "Alterar Idioma da Interface",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "368b59bf-5d27-4c4e-ab5c-792c119ded1a",
+    "name": "US02",
+    "commands": [{
+      "id": "f4293756-65d5-47b6-8b1a-64e9be5a107c",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "931704f0-805a-4585-9937-d350e8bc6412",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "675x743",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1066191-dda6-4b0f-ad09-a3e1d358a1b5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=app-header-nav:nth-child(1) .me-2 .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=app-header-nav:nth-child(1) .me-2 .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[2]/app-header-nav/mat-toolbar/app-notifications-icon-button/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14b2acf7-abcb-45bb-8170-18e0c27a9255",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=app-header-nav:nth-child(1) .me-2 .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=app-header-nav:nth-child(1) .me-2 .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[2]/app-header-nav/mat-toolbar/app-notifications-icon-button/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "185629a2-c9f9-4e2e-b40b-e16fed53aac2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.game-item:nth-child(1) .img-container",
+      "targets": [
+        ["css=.game-item:nth-child(1) .img-container", "css:finder"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e04e15a2-42c6-4a41-b790-a26e55f1b0d8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.me-2 > .fa-user-group",
+      "targets": [
+        ["css=.me-2 > .fa-user-group", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a782473-332f-4c2d-b86b-ba718aae97b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-100:nth-child(2) > .btn .flex-grow-1",
+      "targets": [
+        ["css=.w-100:nth-child(2) > .btn .flex-grow-1", "css:finder"],
+        ["xpath=//app-juicy-button[2]/button/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ed34c75-4e8e-48d3-9188-a371f6c43a39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.target",
+      "targets": [
+        ["css=.target", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d89fa4-44ff-4425-aaa9-9e417fae6e3e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ng-star-inserted:nth-child(1) > .mat-mdc-button-touch-target:nth-child(4)",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) > .mat-mdc-button-touch-target:nth-child(4)", "css:finder"],
+        ["xpath=//span/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2de0a03-2bfe-46af-bb58-0438cc48024f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ng-star-inserted:nth-child(1) > .mat-mdc-button-touch-target:nth-child(4)",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) > .mat-mdc-button-touch-target:nth-child(4)", "css:finder"],
+        ["xpath=//span/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c651654-3ce4-4675-b7eb-a462bcc64439",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .fw-normal:nth-child(1)",
+      "targets": [
+        ["css=.d-flex > .fw-normal:nth-child(1)", "css:finder"],
+        ["xpath=//span[2]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c881f256-fa8e-4117-af1b-2c9a6525dac0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover",
+      "targets": [
+        ["css=.hover", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "722c0ae7-d523-455b-8f20-f7acf9202e06",
+      "comment": "Jogar Contra Robot/Adversário Aleatório",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f56b0a5a-e87e-4e4a-9658-c230aae6e18c",
+    "name": "US01",
+    "commands": [{
+      "id": "0f636a91-bdc1-4a40-8852-e2f7c7d4fda2",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac03fc13-5468-411f-a59a-6a914c9e080d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "675x743",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ded985b1-959b-4ee1-9545-58ef1c9e4440",
+      "comment": "",
+      "command": "click",
+      "target": "css=.game-item:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.game-item:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='Battleship']", "xpath:img"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4910e3d7-0d3b-4756-b0e8-2b296c7b5314",
+      "comment": "",
+      "command": "click",
+      "target": "css=.weapon-button:nth-child(3) > img",
+      "targets": [
+        ["css=.weapon-button:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='missile']", "xpath:img"],
+        ["xpath=//div[@id='player_weapons']/button[3]/img", "xpath:idRelative"],
+        ["xpath=//button[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e5b1037-7efd-4e8a-8376-63c8d2c3b5cf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.is-selected",
+      "targets": [
+        ["css=.is-selected", "css:finder"],
+        ["xpath=//div[@id='player_weapons']/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a37082f4-d473-40b8-8e9b-2570004202ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cell-4-5 .circle",
+      "targets": [
+        ["css=.cell-4-5 .circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "de39de6a-37e2-4b98-9609-5aa1c03b2d64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .circle",
+      "targets": [
+        ["css=.hover > .circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fea8ad65-fda1-4fc7-8d2d-93c6580a47fd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.weapon-button:nth-child(3) > img",
+      "targets": [
+        ["css=.weapon-button:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='missile']", "xpath:img"],
+        ["xpath=//div[@id='player_weapons']/button[3]/img", "xpath:idRelative"],
+        ["xpath=//button[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc367159-85a8-48bc-a68b-5784f35663ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.weapon-button:nth-child(3) > img",
+      "targets": [
+        ["css=.weapon-button:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='missile']", "xpath:img"],
+        ["xpath=//div[@id='player_weapons']/button[3]/img", "xpath:idRelative"],
+        ["xpath=//button[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b1cdf9e-609f-4989-8f5f-20e61b02576e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.is-selected > img",
+      "targets": [
+        ["css=.is-selected > img", "css:finder"],
+        ["xpath=//img[@alt='missile']", "xpath:img"],
+        ["xpath=//div[@id='player_weapons']/button[3]/img", "xpath:idRelative"],
+        ["xpath=//button[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b0ee9db-701e-40ee-bc3d-88150c469a3f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.is-selected",
+      "targets": [
+        ["css=.is-selected", "css:finder"],
+        ["xpath=//div[@id='player_weapons']/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eec5533-1525-4436-b960-cab19da4d96f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cell-4-7 > .hover",
+      "targets": [
+        ["css=.cell-4-7 > .hover", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "66ec1110-ce63-4a43-b5f2-508b6f909b4a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.weapon-button:nth-child(3) > .badge",
+      "targets": [
+        ["css=.weapon-button:nth-child(3) > .badge", "css:finder"],
+        ["xpath=//div[@id='player_weapons']/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c0985ac-a28d-4498-a33d-6d8b4fb848ba",
+      "comment": "Usar Armas Especiais",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2a620521-ec51-4a04-b29b-2f64a56ac0f3",
+    "name": "US03",
+    "commands": [{
+      "id": "cd11076f-0ac0-40c1-89bd-39448d11694d",
+      "comment": "",
+      "command": "open",
+      "target": "/en/r/HEe6vZ8E1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c81710fd-9d72-4277-a006-3a7c0d8ca8dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "675x743",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d34e1b7-03ff-4c24-91aa-9ddfe1a73970",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover",
+      "targets": [
+        ["css=.hover", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c4c1854-ff7b-4a32-96b8-7628ff3a78c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .circle",
+      "targets": [
+        ["css=.hover > .circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a419279-3dab-49c5-ac16-286c27df2cf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover",
+      "targets": [
+        ["css=.hover", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8b888d5-b32e-410a-bf87-d79e3f7848ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.front > .ng-star-inserted",
+      "targets": [
+        ["css=.front > .ng-star-inserted", "css:finder"],
+        ["xpath=//app-juicy-button/button/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "768cccfe-0222-49ce-84bc-a823beb81969",
+      "comment": "Pedir Rematch",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c10c724a-19cc-4aa3-bbe8-fad3a6ecefc6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://papergames.io/"],
+  "plugins": []
+}
