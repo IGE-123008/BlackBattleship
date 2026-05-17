@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
+@Disabled("Testes demo da JetBrains ignorados para o Lab 5")
 
 public class MainPageTest {
     private WebDriver driver;
