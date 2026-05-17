@@ -5,6 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
 
 public class MainPageTest {
@@ -18,6 +21,7 @@ public class MainPageTest {
         driver.get("https://www.jetbrains.com/");
 
         mainPage = new MainPage(driver);
+        mainPage.closePopUp();
     }
 
 @AfterEach    public void tearDown() {
@@ -28,13 +32,13 @@ public class MainPageTest {
     public void search() {
         mainPage.searchButton.click();
 
-        WebElement searchField = driver.findElement(By.cssSelector("[data-test='search-input']"));
+        WebElement searchField = driver.findElement(By.cssSelector("[data-test-id='search-input']"));
         searchField.sendKeys("Selenium");
 
         WebElement submitButton = driver.findElement(By.cssSelector("button[data-test='full-search-button']"));
         submitButton.click();
 
-        WebElement searchPageField = driver.findElement(By.cssSelector("input[data-test='search-input']"));
+        WebElement searchPageField = driver.findElement(By.cssSelector("input[data-test-id='search-input']"));
 assertEquals("Selenium", searchPageField.getAttribute("value"));    }
 
     @Test
