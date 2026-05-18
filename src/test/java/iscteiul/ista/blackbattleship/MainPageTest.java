@@ -43,8 +43,10 @@ public class MainPageTest {
         submitButton.click();
 
         WebElement searchPageField = driver.findElement(By.cssSelector("input[data-test-id='search-input']"));
+
         assertEquals("Selenium", searchPageField.getAttribute("value"));
     }
+
 
     @Test
     public void toolsMenu() {
